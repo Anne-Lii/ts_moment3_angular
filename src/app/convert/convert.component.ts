@@ -11,28 +11,28 @@ import { FormsModule } from '@angular/forms';
 export class ConvertComponent {
   //properties length
   convertlengthfrom: number = 0;
-  reultlength: number = 0;
+  resultlength: number = 0;
 
   //methods length
   meterToFoot(): void {
-    this.reultlength = this.convertlengthfrom * 3.28084;
+    this.resultlength = this.convertlengthfrom * 3.28084;
   }
 
   footToMeter(): void {
-    this.reultlength = this.convertlengthfrom * 0.3048;
+    this.resultlength = this.convertlengthfrom * 0.3048;
   }
 
 
   //properties degrees
   convertdegreesfrom: number = 0;
-  reultdegrees: number = 0;
+  resultdegrees: number = 0;
 
   //methods degrees
   celsiusToFahrenheit(): void {
-    this.reultdegrees = this.convertdegreesfrom * 1.8 + 32;
+    this.resultdegrees = this.convertdegreesfrom * 1.8 + 32;
   }
 
   fahrenheitToCelcius(): void {
-    this.reultdegrees = (this.convertdegreesfrom - 32) * 0.5556;
+    this.resultdegrees = (this.convertdegreesfrom - 32) * 0.5556;
   }
 }
