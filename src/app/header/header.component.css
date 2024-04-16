@@ -39,6 +39,7 @@
 .current {
     text-decoration: underline;
 }
+
 @media screen and (max-width: 500px) {
 
     #header_main h1{
