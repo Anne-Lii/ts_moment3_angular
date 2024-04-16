@@ -1,23 +1,27 @@
 # Moment3 Typescript Angular
+## Anne-Lii Hansen, anha2324@studet.miun.se
 
+
+### Installation
 Projektet är skapat med [Angular CLI](https://github.com/angular/angular-cli) version 17.3.4.
+`git clone https://github.com/Anne-Lii/ts_moment3_angular.git`
+`npm install`
+`ng serve --open`
+Eller Kopiera denna: `http://localhost:4200/`och kopiera in i din webbläsare.
 
-## Utvecklingsserver
+### Komponenter
+Tre undersidor har genererats som komponenter Startsidan, Konverteringssidan och Om Uppgiftensidan. Även footer och Header är egna komponenter.
 
-Skriv `ng serve --open` för att öppna upp i webbläsaren. Eller Kopiera denna: `http://localhost:4200/`och kopiera in i din webbläsare.
+### Infoga bild
+En bild har infogats på startsidan.
 
-## Build
+### Konvertering
+En konvertering för längd mellan meter och foot.
+En konvertering för grader mellan celsius och fahrenheit.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Build
+Projektet byggdes med `ng build` för att skapa `dist/` katalogen där alla minifierade och optimerade publiseringsfiler hamnar.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
