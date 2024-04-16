@@ -8,7 +8,7 @@ export const routes: Routes = [
     { path: "home", component: HomeComponent},
     { path: "convert", component: ConvertComponent},
     { path: "about", component: AboutComponent},
-    { path: "404", component: NotFoundComponent},
-    { path: "**", component: NotFoundComponent},
+    { path: "404", redirectTo: "/home", pathMatch: "full"},
+    { path: "**", redirectTo: "/home", pathMatch: "full"},
     { path: "", redirectTo: "/home", pathMatch: "full"}
 ];
