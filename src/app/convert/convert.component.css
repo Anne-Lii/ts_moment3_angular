@@ -14,7 +14,8 @@ p {
 } 
 .convert {
     border: 1px solid black;
-    width: 40%;
+    width: 90%;
+    max-width: 400px;
     margin: 0 auto;
     padding: 20px;
     box-shadow: 1px 1px 10px grey;
@@ -22,6 +23,7 @@ p {
 }
 
 input {
+    width: 90%;
     height: 30px;
     margin: 5px 0;
     font-size: 18px;
