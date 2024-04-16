@@ -1,0 +1,13 @@
+h1 {
+    padding: 100px 0;
+    text-align: center;
+    color: rgb(49, 189, 182);
+    text-shadow: 1px 1px 0 black;
+}
+
+.convert {
+    border: 1px solid black;
+    width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+}

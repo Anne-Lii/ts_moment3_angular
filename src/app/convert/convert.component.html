@@ -1,2 +1,37 @@
-<h1>Detta är konverteringssidan där grader och meter ska konverteras</h1>
+<h1>Konvertering</h1>
 
+<div class="convert">
+    <h2> Meter &harr; Foot</h2>   
+<div>
+    <label for="convertlengthfrom">Skriv in värdet du vill konvertera: </label><br>
+    <input type="number" id="convertlengthfrom"[(ngModel)]="convertlengthfrom">
+</div>
+<div>
+    <button (click) = "meterToFoot()">Meter till Foot</button>
+</div>
+<div>
+    <button (click) = "footToMeter()">Foot till Meter</button>
+</div>
+<div id="reultlength">
+    Resultat: {{reultlength}}
+</div>
+</div>
+
+<br>
+
+<div class="convert">
+    <h2> Celcius &harr;  Fahrenheit</h2>   
+<div>
+    <label for="convertdegreesfrom">Skriv in värdet du vill konvertera: </label><br>
+    <input type="number" id="convertdegreesfrom"[(ngModel)]="convertdegreesfrom">
+</div>
+<div>
+    <button (click) = "celsiusToFahrenheit()">C till F</button>
+</div>
+<div>
+    <button (click) = "fahrenheitToCelcius()">F till C</button>
+</div>
+<div id="reultdegrees">
+    Resultat: {{reultdegrees}}
+</div>
+</div>
