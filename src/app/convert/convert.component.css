@@ -5,9 +5,38 @@ h1 {
     text-shadow: 1px 1px 0 black;
 }
 
+label {
+    font-size: 18px;
+}
+
+p {
+    font-size: 18px;
+} 
 .convert {
     border: 1px solid black;
     width: 40%;
     margin: 0 auto;
     padding: 20px;
+    box-shadow: 1px 1px 10px grey;
+    border-radius: 3px;
+}
+
+input {
+    height: 30px;
+    margin: 5px 0;
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+button {
+    padding: 5px;
+    margin: 5px 0;
+}
+
+#reultdegrees {
+    font-size: 25px;
+}
+
+#reultlength {
+    font-size: 25px;
 }

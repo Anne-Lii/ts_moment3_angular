@@ -13,7 +13,7 @@
     <button (click) = "footToMeter()">Foot till Meter</button>
 </div>
 <div id="reultlength">
-    Resultat: {{reultlength}}
+    <p>Resultat: </p>{{reultlength}}
 </div>
 </div>
 
@@ -26,12 +26,12 @@
     <input type="number" id="convertdegreesfrom"[(ngModel)]="convertdegreesfrom">
 </div>
 <div>
-    <button (click) = "celsiusToFahrenheit()">C till F</button>
+    <button (click) = "celsiusToFahrenheit()">&deg;C till &deg;F</button>
 </div>
 <div>
-    <button (click) = "fahrenheitToCelcius()">F till C</button>
+    <button (click) = "fahrenheitToCelcius()">&deg;F till &deg;C</button>
 </div>
 <div id="reultdegrees">
-    Resultat: {{reultdegrees}}
+    <p>Resultat: </p>{{reultdegrees}}
 </div>
 </div>

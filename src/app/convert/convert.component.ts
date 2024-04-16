@@ -13,7 +13,7 @@ export class ConvertComponent {
   convertlengthfrom: number = 0;
   reultlength: number = 0;
 
-  //methods
+  //methods length
   meterToFoot(): void {
     this.reultlength = this.convertlengthfrom * 3.28084;
   }
@@ -27,7 +27,7 @@ export class ConvertComponent {
   convertdegreesfrom: number = 0;
   reultdegrees: number = 0;
 
-  //methods
+  //methods degrees
   celsiusToFahrenheit(): void {
     this.reultdegrees = this.convertdegreesfrom * 1.8 + 32;
   }
